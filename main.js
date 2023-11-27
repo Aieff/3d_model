@@ -3,6 +3,8 @@ import * as THREE from "https://cdn.skypack.dev/three@0.129.0/build/three.module
 import { OrbitControls } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/controls/OrbitControls.js";
 import { GLTFLoader } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/GLTFLoader.js";
 
+let model3d = 'guts_v.2';
+
 // Crie uma cena Three.JS
 const cena = new THREE.Scene();
 // Crie uma nova câmera com posições e ângulos
@@ -15,7 +17,7 @@ let objeto;
 let controles;
 
 // Define qual objeto renderizar
-let objParaRenderizar = 'guts_v.2';
+let objParaRenderizar = model3d;
 
 // Instancie um carregador para o arquivo .gltf
 const carregador = new GLTFLoader();
@@ -27,10 +29,10 @@ renderizador.setSize(window.innerWidth, window.innerHeight);
 // Adicione o renderizador ao DOM
 document.getElementById("container3D").appendChild(renderizador.domElement);
 
-camera.position.set(-0.6680106979672842, 0.6260153608479015, -1.0663097082286035);
+camera.position.set(-0.6680106979672842, 0.16260153608479015, -2.0663097082286035);
 
 // Defina a rotação inicial da câmera
-camera.rotation.set(-3.0124334250178135, -1.0335625892081497, -3.0304669056172098);
+camera.rotation.set(-1.0124334250178135, -1.0335625892081497, -3.0304669056172098);
 
 // Defina a distância da câmera para o modelo 3D
 camera.scale.set(1, 1, 1);
@@ -47,7 +49,7 @@ const luzAmbiente = new THREE.AmbientLight(0x333333, intensidadeDaLuzAmbiente);
 cena.add(luzAmbiente);
 
 // Isso adiciona controles à câmera, para que possamos rotacioná-la / ampliá-la com o mouse
-if (objParaRenderizar === "guts_v.2") {
+if (objParaRenderizar === model3d) {
   controles = new OrbitControls(camera, renderizador.domElement);
 }
 
@@ -122,4 +124,5 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 });
+
 
