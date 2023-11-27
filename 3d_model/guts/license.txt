@@ -1,0 +1,11 @@
+Model Information:
+* title:	Guts Berserker Armor
+* source:	https://sketchfab.com/3d-models/guts-berserker-armor-dd3eaba750db4f35b42302252b3a87ef
+* author:	CEJAYS (https://sketchfab.com/ncd.blueberry)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Guts Berserker Armor" (https://sketchfab.com/3d-models/guts-berserker-armor-dd3eaba750db4f35b42302252b3a87ef) by CEJAYS (https://sketchfab.com/ncd.blueberry) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
